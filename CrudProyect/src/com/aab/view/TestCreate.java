@@ -3,7 +3,7 @@ package com.aab.view;
 import com.aab.controllers.CrudUser;
 
 /* 
- * Si no se conecta leer datos de conexion en interfaz IConnection, posiblemente haya que cambiar usuario y contraseña de la DB
+ * Si no se conecta leer datos de conexion en interfaz IConnection, posiblemente haya que cambiar usuario y contraseÃ±a de la DB
  */
 
 public class TestCreate {
@@ -12,7 +12,7 @@ public class TestCreate {
 		
 		CrudUser cu = new CrudUser();
 		
-		/*	Ejecutar este código varias veces para que se vaya llenando la DB, luego comentar los métodos de insercción a DB*/
+		/*	Ejecutar este cÃ³digo varias veces para que se vaya llenando la DB     */
 		if(cu.create("Dante", "Panella", 35)){
 			System.out.println("Information successfully inserted");
 		}else{
